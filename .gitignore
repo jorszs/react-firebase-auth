@@ -22,5 +22,6 @@ yarn.lock*
 
 npm-debug.log*
 debug.log*
+debug.log
 yarn-debug.log*
 yarn-error.log*
