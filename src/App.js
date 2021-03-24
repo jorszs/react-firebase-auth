@@ -4,6 +4,7 @@ import Inicio from "./components/Inicio";
 import Admin from "./components/Admin";
 import Login from "./components/Login";
 import Menu from "./components/Menu";
+import Firestore from "./components/Firestore";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route exact path="/" component={Inicio} />
           <Route path="/admin" component={Admin} />
           <Route path="/login" component={Login} />
+          <Route path="/firestore" component={Firestore} />
         </Switch>
       </Router>
     </div>
