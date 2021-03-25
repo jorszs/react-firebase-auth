@@ -32,7 +32,7 @@ const Menu = () => {
                         ):(<span></span>)}
                     </li>
                     <li className="nav-item">
-                            <Link className="nav-link" to="/firestore" >Login-firestore</Link>
+                            <Link className="nav-link" to="/firestore" >Agenda-firestore</Link>
                     </li>
                     <li className="nav-item">
                     {user ? (
